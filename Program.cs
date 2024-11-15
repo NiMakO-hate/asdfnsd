@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("Введите первое число:");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введите операцию (+, -, *, /):");
+        Console.WriteLine("Введите операцию (^, sqrt, +, -, *, /):");
         string operation = Console.ReadLine();
 
         Console.WriteLine("Введите второе число:");
@@ -17,6 +17,12 @@ class Program
 
         switch (operation)
         {
+            case "^":
+                result = Math.Pow(num1, num2);
+                break;
+            case "sqrt":
+                result = Math.Sqrt(num1);
+                break;
             case "+":
                 result = num1 + num2;
                 break;
