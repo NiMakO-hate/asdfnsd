@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("Введите операцию (^, sqrt, +, -, *, /):");
         string operation = Console.ReadLine();
 
-        Console.WriteLine("Введите второе числоjjjjj:");
+        Console.WriteLine("Введите второе числоjjjjjdhb:");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
         double result = 0;
